@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Who is this redditor",
+    "description": "Shows a summary of redditors posts while hovering over name",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["https://*.reddit.com/*"],
+            "js": ["who-is.js"],
+            "css": ["popup.css"],
+            "run_at": "document_end",
+            "all_frames": false 
+        }
+    ],
+
+    "permissions": [
+        "activeTab"
+    ]
+}

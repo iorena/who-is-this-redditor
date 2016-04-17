@@ -1,0 +1,6 @@
+.redditor-info {
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E4EDF0), to(#B6CAD1));
+}
