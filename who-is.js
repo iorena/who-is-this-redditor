@@ -1,3 +1,4 @@
+/* Create popup */
 var popup = document.createElement("div");
 popup.innerHTML = "<h1>moi</h1>";
 popup.setAttribute("class", "redditor-info");

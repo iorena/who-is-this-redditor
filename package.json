@@ -1,0 +1,23 @@
+{
+  "name": "who-is-this-redditor",
+  "version": "1.0.0",
+  "description": "Chrome plugin that shows overview of users",
+  "main": "who-is.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iorena/who-is-this-redditor.git"
+  },
+  "author": "Essi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iorena/who-is-this-redditor/issues"
+  },
+  "homepage": "https://github.com/iorena/who-is-this-redditor#readme",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "snoowrap": "^0.11.5"
+  }
+}
